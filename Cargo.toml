@@ -1,0 +1,13 @@
+[package]
+name = "taskminator"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+serde = { version = "1.0.130", features = ["derive"]}
+serde_json = "1.0.68"
+regex = "1.5.4"
+chrono = "0.4"
+ansi_term = "0.12.1"
